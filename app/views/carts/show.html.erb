@@ -2,9 +2,7 @@
 
 <% if enhanced_cart.empty? %>
  <div class="position-relative">
- <p class="alert alert-danger text-center" role="alert"> Your cart is currently empty. Click here to view our 
- <%= link_to 'Products', :root %> 
- page. </p>
+ <p class="alert alert-danger text-center" role="alert"> Your cart is currently empty. Click  <%= link_to 'here', :root %>  to view our products page. </p>
  </div>
 
  <% else %>
