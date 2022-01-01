@@ -1,7 +1,18 @@
 class OrdersController < ApplicationController
 
   def show
-    @order = Order.find(params[:id])
+    # @order = Order.find(params[:id])
+    # @line_items = LineItem.where(order_id: params[:id])
+    # @order_data= Order.joins("INNER JOIN line_items ON orders.id=line_items.order_id")
+    
+    @order_data=LineItem.select("*").joins(:order, :product)
+    # @order_data=Order.joins("JOIN line_items ON orders.id=line_items.order_id JOIN products ON product_id = products.id")
+
+# Author.joins("INNER JOIN posts ON posts.author_id = author.id AND posts.published = 't'")
+
+    # SELECT * FROM orders 
+    # JOIN line_items ON orders.id=line_items.order_id
+    # JOIN products ON product_id = products.id;
   end
 
   def create
