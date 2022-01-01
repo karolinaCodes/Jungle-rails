@@ -1,2 +1,15 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Admin &raquo; Dashboard</h1>
+
+
+<div class="jumbotron">
+<p><b>Products</b></p>
+<span>You have <b><%= link_to @num_of_products, admin_products_path%></b> products in your database.</span>
+</div>
+
+<div class="jumbotron">
+<p><b>Categories</b></p>
+<span>You have <b><%= link_to @num_of_categories, admin_products_path%></b> categories in your database.</span>
+</div>
+
+
+ TODO: change the link to the num of categories when make categories page
