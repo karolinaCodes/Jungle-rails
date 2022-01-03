@@ -1,5 +1,18 @@
-  <img src= <%=line_item.product.image%> />
-  <p><%=line_item.product.name%></p>
-  <span><%=line_item.product.description%></span>
-  <p>Quantity: <%=line_item.quantity%></p>
-  <p>Line Item Total: <%=line_item.total_price_cents%></p>
+
+  <tr>
+  <td>
+    <%= image_tag line_item.product.image.tiny %>
+  </td>
+  <td>
+    <h4><%= line_item.product.name %></h4>
+    <br>
+    <p><%= line_item.product.description %></p>
+  </td>
+  <td>
+    <%= line_item.quantity %>
+  </td>
+  <td>
+    <%=  humanized_money_with_symbol line_item.total_price_cents/100 %>
+  </td>
+</tr>
+
