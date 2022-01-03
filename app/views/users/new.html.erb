@@ -1,11 +1,31 @@
-<h1>Signup!</h1>
+<h1>Signup</h1>
+<hr>
+<div class="row">
+<div class="col-sm-6 col-sm-offset-1">
+  <%= form_for :user, url: '/users' do |form| %>
+    <% #error handling%>
 
-<%= form_for :user, url: '/users' do |f| %>
+    <div class="form-group">
+      <%= form.label :name %>
+      <%= form.text_field :name, class: 'form-control' %>
+    </div>
 
-  Name: <%= f.text_field :name %>
-  Email: <%= f.text_field :email %>
-  Password: <%= f.password_field :password %>
-  Password Confirmation: <%= f.password_field :password_confirmation %>
-  <%= f.submit "Submit" %>
+    <div class="form-group">
+      <%= form.label :email %>
+      <%= form.text_field :email, class: 'form-control' %>
+    </div>
 
-<% end %>
+    <div class="form-group">
+      <%= form.label :password %>
+      <%= form.password_field :password, class: 'form-control' %>
+    </div>
+
+    <div class="form-group">
+      <%= form.label :confirm_password %>
+      <%= form.password_field :confirm_password, class: 'form-control' %>
+    </div>
+
+    <%= form.submit 'Submit', class: 'btn btn-primary' %>
+  <% end %>
+</div>
+</div>
