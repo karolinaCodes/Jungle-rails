@@ -12,12 +12,11 @@ class SessionsController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
-    # If user's login doesn't work, send them back to the login form.
-      redirect_to '/login'
+      # If user's login doesn't work, send them back to the login form.
+        redirect_to '/login'
     end
   end
 
-  # set cookie session to nil to log user out
   def destroy
     session[:user_id] = nil
     redirect_to '/login'

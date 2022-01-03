@@ -3,8 +3,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
 
+  # look up the user, if they're logged in, and save their user object to a variable called @current_user
   def current_user
-    # look up the user, if they're logged in, and save their user object to a variable called @current_user
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end
   # helper_method line below current_user allows us to use @current_user in our view files
