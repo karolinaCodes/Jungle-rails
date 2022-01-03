@@ -6,12 +6,50 @@
 // App
 @import "products";
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
 // Global
 body {
+  font-family: Poppins;
   padding-top: 70px;
+  // background: #9fb4a4;
+  background: #cfddd3;
+  // color: #5e4f40;
+  // color: #8b8a76;
+  // color: #171311;
+  // color: #99562c;
+  // color: #dcd4ba;
+  // color: #e8eae3;
+}
+
+.navbar {
+  background-color: #ffffff;
+  color: #333333 !important;
+}
+
+a {
+  color: #333333 !important;
+}
+
+article {
+  background: #ffffff;
+  color: #333333;
 }
 
 // Bootstrap adjustments
 form.button_to {
   display: inline;
+}
+
+.btn-primary {
+  background-color: #333333;
+
+  &:hover {
+    background-color: #333333e0;
+  }
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 500;
 }
