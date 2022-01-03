@@ -2,25 +2,35 @@ Rails.application.routes.draw do
 
   root to: 'products#index'
 
+  # products
   resources :products, only: [:index, :show]
+
+  # categories
   resources :categories, only: [:show]
 
+  # cart
   resource :cart, only: [:show] do
     post   :add_item
     post   :remove_item
   end
 
+  # orders
   resources :orders, only: [:create, :show]
 
+  # admin pages
   namespace :admin do
     root to: 'dashboard#show'
     resources :products, except: [:edit, :update, :show]
     resources :categories, only: [:index, :new, :create]
   end
 
-  # about page route
-  get '/about', to:'about#index'
-  # get '/about' => 'about#new'
+  # about
+  get '/about' => 'about#index'
+
+  # signup
+  # The first renders a form in the browse, the second will receive the form and create a user in our database using the data given to us by the user
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
 
 
 
