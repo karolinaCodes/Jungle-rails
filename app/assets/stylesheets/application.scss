@@ -72,3 +72,9 @@ form.button_to {
 .user_links {
   padding: 15px;
 }
+
+.login,
+.signup {
+  display: flex;
+  justify-content: center;
+}
