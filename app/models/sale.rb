@@ -2,7 +2,7 @@ class Sale < ActiveRecord::Base
 
   # creating an AR Scope
   def self.active
-    where ("sales.starts_on <= ? AND sales.ends_on >= ?", Date.current, Date.current)
+    where("sales.starts_on <= ? AND sales.ends_on >= ?", Date.current, Date.current)
   end
 
   def finished?
