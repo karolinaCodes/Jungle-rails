@@ -3,9 +3,9 @@
 
 <div class="row login">
 <div class="col-sm-6 col-sm-offset-1">
-  <%= form_for '/login' do |form| %>
-    <% #error handling%>
-
+  <%= form_for :user, url: '/users' do |form| %>
+    <% # add error handling%>
+   
     <div class="form-group">
       <%= form.label :email %>
       <%= form.text_field :email, class: 'form-control' %>
