@@ -1,7 +1,7 @@
 # Jungle
 
 An e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
-I added features and fixed bugs of this existing web app in order to learn Rails.
+I added features, fixed bugs and upgraded the user-interface design of this existing web app in order to learn Rails.
 
 ## Features Added
 - "Sold Out" badge for products out of stock
