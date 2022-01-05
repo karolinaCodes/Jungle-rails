@@ -1,6 +1,25 @@
 # Jungle
 
 An e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+I added features, fixed bugs and upgraded the user-interface design of this existing web app in order to learn Rails.
+
+## Features Added
+- "Sold Out" badge for products out of stock
+- Adminitrator page for adding new product categories
+- Added user authentication
+- Added order details to summarize purchase after payment
+
+## Bugs Fixed
+- Money formatting (fixed decimal points and leading '$' signs)
+- Fixed basic http authentication for administrators
+- Fixed empyty cart checkout
+
+## RSpec Testing
+- Home page functionality
+- Product details page functionality
+- Add-to-cart functionality
+
+## Setup
 
 ## Additional Steps for Apple M1 Machines
 
@@ -9,7 +28,7 @@ An e-commerce application built with Rails 4.2 for purposes of teaching Rails by
 2. Remove Gemfile.lock
 3. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile)
 
-## Setup
+## General Setup
 
 1. Run `bundle install` to install dependencies
 2. Create `config/database.yml` by copying `config/database.example.yml`
