@@ -78,3 +78,19 @@ form.button_to {
   display: flex;
   justify-content: center;
 }
+
+header {
+  margin-bottom: 10px;
+
+  & a {
+    text-align: center;
+  }
+
+  & h4 {
+    margin-top: 20px;
+  }
+}
+
+.page-header {
+  margin-top: 30px;
+}
