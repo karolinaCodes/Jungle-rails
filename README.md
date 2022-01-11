@@ -33,7 +33,8 @@ An e-commerce application built with Rails 4.2 for purposes of teaching Rails by
 
 # Demo
 
-![Main Links Demo](public/gifs/test.gif)
+![Main Links Demo](public/gifs/20220110231106732.gif)
+
 ![Login & Signup Demo](public/gifs/login-signup.gif)
 
 ## Setup
