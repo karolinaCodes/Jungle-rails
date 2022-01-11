@@ -33,9 +33,25 @@ An e-commerce application built with Rails 4.2 for purposes of teaching Rails by
 
 # Demo
 
-![Main Links Demo](public/gifs/20220110231106732.gif)
+### Main Links
+
+![Main Links Demo](public/gifs/all-main-links.gif)
+
+### Login & Signup
 
 ![Login & Signup Demo](public/gifs/login-signup.gif)
+
+### Customer Cart Flow
+
+![Login & Signup Demo](public/gifs/cart-flow.gif)
+
+### Admin - Dashboard
+
+![Login & Signup Demo](public/gifs/admin-dashboard.gif)
+
+### Admin - Add New Category and Product
+
+![Login & Signup Demo](public/gifs/new-category-and-product.gif)
 
 ## Setup
 
