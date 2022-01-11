@@ -47,7 +47,7 @@ Users can choose to create a personal account with the store. The will need to f
 
 ![Customer Checkout Flow](public/gifs/cart-flow.gif)
 Users cannot checkout without adding any items to their cart. If they try to do so, they will be presented with a message containing a contextual link that leads them to the products page. If a user finds something they would like to buy on the products page, they can add the item to their cart. When they are ready to checkout, they can visit their cart and click on the 'Pay with card' button. This will prompt a pop-up form where the user must input their payment information and then confirm their payment. Once the order is submitted, the user is redirected to their order summary page where they can view the details of their order including the email their order confirmation was sent to.
-- For development and demo purposes, I used a dummary credit card number from Stripe (more information below) to create orders.
+- For development and demo purposes, I used a dummary credit card number from Stripe to submit orders. (more information below) 
 
 
 ### Admin - Dashboard, and Products and Catgories List
