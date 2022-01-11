@@ -25,7 +25,7 @@ An e-commerce application built with Rails 4.2 for purposes of teaching Rails by
 
 ### Original UI:
 
-![Original UI](public/screenshots/original-ui.png)
+![Original UI](public/screenshots/original-ui.jpeg)
 
 ### Upgraded UI:
 
