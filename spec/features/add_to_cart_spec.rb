@@ -25,10 +25,11 @@ RSpec.feature "Visitor navigates to home page", type: :feature, js: true do
     expect(page).to have_css 'article.product', count: 10
 
     # EXERCISES
-    find('article header a', match: :first).click
+    page.first('form.button_to').find('button').click
 
+    # puts page.html
     # VERIFY
-    expect(page).to have_css 'article.product-detail'
+    expect(page).to have_text 'My Cart (1)'
 
     # DEBUG
     save_screenshot
