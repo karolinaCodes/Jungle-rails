@@ -36,22 +36,31 @@ An e-commerce application built with Rails 4.2 for purposes of teaching Rails by
 ### Main Links
 
 ![Main Links Demo](public/gifs/all-main-links.gif)
+Users can view a list of all the available products in Jungle on the home page. From the home page, they can click on the different navigation links like 'About' and 'Categories'. The 'Categories' navigation link contains a drop down menu with conxtentual links that a user can click on in order to categorize the available products.
 
 ### Login & Signup
 
 ![Login & Signup Demo](public/gifs/login-signup.gif)
+Users can choose to create a personal account with the store. The will need to fill out a form, provide the relevant information and meet our sign up requirements in order to create an account. Once a user creates an account, they are automatically signed in. They can chose to log out of their account on any page and subsequently log back in whenever they choose.
 
 ### Customer Checkout Flow
 
-![Login & Signup Demo](public/gifs/cart-flow.gif)
+![Customer Checkout Flow](public/gifs/cart-flow.gif)
+Users cannot checkout without adding any items to their cart. If they try to do so, they will be presented with a message containing a contextual link that leads them to the products page. If a user finds something they would like to buy on the products page, they can add the item to their cart. When they are ready to checkout, they can visit their cart and click on the 'Pay with card' button. This will prompt a pop-up form where the user must input their payment information and then confirm their payment. Once the order is submitted, the user is redirected to their order summary page where they can view the details of their order including the email their order confirmation was sent to.
 
-### Admin - Dashboard
+- For development and demo purposes, I used a dummary credit card number from Stripe (more information below) to create orders.
 
-![Login & Signup Demo](public/gifs/admin-dashboard.gif)
+
+### Admin - Dashboard, and Products and Catgories List
+
+![Admin - Dashboard](public/gifs/admin-dashboard.gif)
+There is an portion of the website that is reserved for admin's only. In order to access these pages, the admin must provided the necessary credentials. Once, validated, an admin can view a dashboard, a detailed list of products in their current database and a list of categories from their database. The admin dashboard contains a summary of the products and categories. Admin's can access the detailed list of products and the list of categories from the dashboard (by clicking the values) or from the admin drop-down menu in the navigation.
+
 
 ### Admin - Add New Category and Product
 
-![Login & Signup Demo](public/gifs/new-category-and-product.gif)
+![Admin - Add New Category and Product](public/gifs/new-category-and-product.gif)
+Admin's also have the ability to create new categories and add new products to the database. At the same time, they have the ability to delete products from the database. 
 
 ## Setup
 
