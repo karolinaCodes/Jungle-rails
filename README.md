@@ -31,6 +31,10 @@ An e-commerce application built with Rails 4.2 for purposes of teaching Rails by
 
 ![Upgraded UI](public/screenshots/upgraded-ui.jpeg)
 
+# Demo
+
+![Upgraded UI](public/gifs/all-main-pages.gif)
+
 ## Setup
 
 ## Additional Steps for Apple M1 Machines
