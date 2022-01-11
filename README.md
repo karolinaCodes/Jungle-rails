@@ -41,7 +41,7 @@ An e-commerce application built with Rails 4.2 for purposes of teaching Rails by
 
 ![Login & Signup Demo](public/gifs/login-signup.gif)
 
-### Customer Cart Flow
+### Customer Checkout Flow
 
 ![Login & Signup Demo](public/gifs/cart-flow.gif)
 
