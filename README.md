@@ -18,7 +18,7 @@ An e-commerce application built with Rails 4.2 for purposes of teaching Rails by
 - Product details page functionality
 - Add-to-cart functionality
 
-## UI Upgraded
+## UI Upgrade
 Original UI:
 
 
