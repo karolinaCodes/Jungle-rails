@@ -1,18 +1,17 @@
 # Jungle
 
-An e-commerce application built with Rails 4.2 for purposes of teaching Rails by example by Lighthouse Labs.
-I added features, fixed bugs and upgraded the user-interface design of this existing web app in order to learn the Rails framework.
+An e-commerce application built with Rails 4.2 for purposes of teaching Rails by example, by Lighthouse Labs. I added features, fixed bugs and upgraded the user-interface design of this existing web application in order to learn the Rails framework.
 
 ## Features Added
 - "Sold Out" badge for products out of stock
-- Adminitrator page for adding new product categories
+- Administrator page for adding new product categories
 - Added user authentication
 - Added order details to summarize purchase after payment
 
 ## Bugs Fixed
 - Money formatting (fixed decimal points and leading '$' signs)
 - Fixed basic http authentication for administrators
-- Fixed empyty cart checkout
+- Fixed empty cart checkout
 
 ## RSpec Testing
 - Home page functionality
