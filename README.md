@@ -51,6 +51,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * PostgreSQL 9.x
 * Stripe
 
-## Testing Dependencies
+## Testing
 * RSpec (unit testing)
 * Capybara & Poltergeist (intergration testing)
